@@ -1,0 +1,20 @@
+#main-image {
+	border: 3px solid black;
+	width: 40vw;
+	height: 30vw;
+	display: block;
+	margin: auto;
+}
+#thumbnails-div {
+	display: flex;
+	margin: auto;
+	margin-top: 10px;
+	width: 40vw;
+	align-self: center;
+}
+.thumbnail {
+	width: 8vw;
+	height: 8vw;
+	flex: 1;
+	cursor: pointer;
+}
